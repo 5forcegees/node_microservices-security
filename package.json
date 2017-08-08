@@ -1,0 +1,20 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Authentication/authorization helper library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://innersource.accenture.com/projects/NMI/repos/security"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "application_configuration": "ssh://git@innersource.accenture.com/nmi/application-configuration.git",
+    "cache": "ssh://git@innersource.accenture.com/nmi/cache.git",
+    "jsonwebtoken": "^7.4.2"
+  }
+}
