@@ -25,7 +25,7 @@ module.exports = function (config) {
 	config.constants = constants;
 
 	// if a configuration was passed in then pass that over to the application_configuration
-	appConfig = require('application_configuration')(config);
+	appConfig = require('application-configuration')(config);
 
 	jwt = require('./lib/jwt.js')(appConfig);
 
