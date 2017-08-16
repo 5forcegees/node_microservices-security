@@ -13,8 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "application_configuration": "ssh://git@innersource.accenture.com/nmi/application-configuration.git",
-    "cache": "ssh://git@innersource.accenture.com/nmi/cache.git",
+    "application-configuration": "git+ssh://git@innersource.accenture.com/nmi/application-configuration.git",
+    "cache": "git+ssh://git@innersource.accenture.com/nmi/cache.git",
     "jsonwebtoken": "^7.4.2"
   }
 }
